@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>RealEstate</title>
+</head>
+<body> 
+    <header id="nav">
+        <nav class="navbar">
+            <h1 class="logo"><span>Real</span>Estate</h1>
+            <ul class="navbar-links">
+                <li><a class="nav-link" href="#nav">Home</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#featured">Featured</a></li>
+                <li><a class="nav-link" href="#agents">Agents</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-user"></i>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="landing-page">
+        <form class="container" action="">
+            <div class="box">
+                <h2>Find Your Perfect Home</h2>
+                <div class="row">
+                    <a href="#">For Sale</a>
+                    <a href="#">For Rent</a>
+                </div>
+                <div class="row">
+                    <input type="text" placeholder="neighborhood">
+                    <input type="text" placeholder="city">
+                </div>
+                <div class="row-2">
+                    <select>
+                        <option value="" disabled hidden selected>minimum price</option>
+                        <option value="$5000">$5000</option>
+                        <option value="$10000">$10000</option>
+                        <option value="$150000">$150000</option>
+                        <option value="$200000">$200000</option>
+                        <option value="$250000">$250000</option>
+                    </select>
+                    <select>
+                        <option value="" disabled hidden selected>maximum price</option>
+                        <option value="$300000">$300000</option>
+                        <option value="$350000">$350000</option>
+                        <option value="$400000">$400000</option>
+                        <option value="$450000">$450000</option>
+                        <option value="$500000">$500000</option>
+                    </select>
+                </div>
+                <div class="row-2">
+                    <select>
+                        <option value="" disabled hidden selected>property status</option>
+                        <option value="Ready To Move">Ready To Move</option>
+                        <option value="Under Construction">Under Construction</option>
+                        <option value="Furnished">Furnished</option>
+                        <option value="Semi-Furnished">Semi-Furnished</option>
+                        <option value="Unfurnished">Unfurnished</option>
+                    </select>
+                    <select>
+                        <option value="" disabled hidden selected>property type</option>
+                        <option value="Flat">Flat</option>
+                        <option value="House">House</option>
+                        <option value="Shop">Shop</option>
+                        <option value="Warehouse">Warehouse</option>
+                        <option value="Land">Land</option>
+                    </select>
+                </div>
+                <div class="row-2">
+                    <select>
+                        <option value="" disabled hidden selected>BHK</option>
+                        <option value="1 BHK">1 BHK</option>
+                        <option value="2 BHK">2 BHK</option>
+                        <option value="3 BHK">3 BHK</option>
+                        <option value="4 BHK">4 BHK</option>
+                        <option value="5 BHK">5 BHK</option>
+                    </select>
+                    <select>
+                        <option value="" disabled hidden selected>amenities</option>
+                        <option value="Parking Space">Parking Space</option>
+                        <option value="Swimming Pool">Swimming Pool</option>
+                        <option value="Playground">Playground</option>
+                        <option value="Security">Security</option>
+                        <option value="All">All</option>
+                    </select>
+                </div>
+                <div class="row-2">
+                    <select>
+                        <option value="" disabled hidden selected>bedrooms</option>
+                        <option value="1 Bedroom">1 Bedroom</option>
+                        <option value="2 Bedroom">2 Bedroom</option>
+                        <option value="3 Bedroom">3 Bedroom</option>
+                        <option value="4 Bedroom">4 Bedroom</option>
+                        <option value="5 Bedroom">5 Bedroom</option>
+                    </select>
+                    <select>
+                        <option value="" disabled hidden selected>bathrooms</option>
+                        <option value="1 Bathroom">1 Bathroom</option>
+                        <option value="2 Bathroom">2 Bathroom</option>
+                        <option value="3 Bathroom">3 Bathroom</option>
+                        <option value="4 Bathroom">4 Bathroom</option>
+                        <option value="5 Bathroom">5 Bathroom</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <a href="#">Search Property</a>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section id="services">
+        <div class="heading">
+            <h2>Our <span>Services</span></h2>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="lazy fix-img" src="./imgs/s-1.png" alt="service-img1">
+                <h2>Buying Home</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia unde sed quos nemo et, itaque ratione asperiores molestias officiis quis!</p>
+                <button class="btn">Learn More</button>
+            </div>
+            <div class="grid-item">
+                <img class="lazy fix-img" src="./imgs/s-2.png" alt="service-img2">
+                <h2>Buying Renting</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia unde sed quos nemo et, itaque ratione asperiores molestias officiis quis!</p>
+                <button class="btn">Learn More</button>
+            </div>
+            <div class="grid-item">
+                <img class="lazy fix-img" src="./imgs/s-3.png" alt="service-img3">
+                <h2>Buying Selling</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia unde sed quos nemo et, itaque ratione asperiores molestias officiis quis!</p>
+                <button class="btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section id="featured">
+        <div class="heading">
+            <h2><span>Featured</span> Properties</h2>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item-2">
+                <div class="img img-1">
+                    <div class="tags">
+                        <span>3 Days Ago</span>
+                        <span>For Rent</span>
+                    </div>
+                    <div class="tags-2">
+                        <i class="fas fa-film"> 1</i>
+                        <i class="fas fa-camera"> 4</i>
+                    </div>
+                </div>
+                <div class="fix">
+                    <h3><span class="main-color">$25,000/Mo</span></h3>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <div class="fix-2">
+                    <h2>Modern Apartments</h2>
+                    <p>927 Paoli Pike, West Chester, PA , 19382</p>
+                </div>
+                <div class="row-2">
+                    <div class="info">
+                        <i class="fas fa-vector-square"></i>
+                        <p>3500 Sqft</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bed"></i>
+                        <p>3 Beds</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bath"></i>
+                        <p>2 Baths</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="#">Request info</a>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="img img-2">
+                    <div class="tags">
+                        <span>3 Days Ago</span>
+                        <span>For Rent</span>
+                    </div>
+                    <div class="tags-2">
+                        <i class="fas fa-film"> 1</i>
+                        <i class="fas fa-camera"> 4</i>
+                    </div>
+                </div>
+                <div class="fix">
+                    <h3><span class="main-color">$25,000/Mo</span></h3>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <div class="fix-2">
+                    <h2>Modern Apartments</h2>
+                    <p>927 Paoli Pike, West Chester, PA , 19382</p>
+                </div>
+                <div class="row-2">
+                    <div class="info">
+                        <i class="fas fa-vector-square"></i>
+                        <p>3500 Sqft</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bed"></i>
+                        <p>3 Beds</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bath"></i>
+                        <p>2 Baths</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="#">Request info</a>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="img img-3">
+                    <div class="tags">
+                        <span>3 Days Ago</span>
+                        <span>For Rent</span>
+                    </div>
+                    <div class="tags-2">
+                        <i class="fas fa-film"> 1</i>
+                        <i class="fas fa-camera"> 4</i>
+                    </div>
+                </div>
+                <div class="fix">
+                    <h3><span class="main-color">$25,000/Mo</span></h3>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <div class="fix-2">
+                    <h2>Modern Apartments</h2>
+                    <p>927 Paoli Pike, West Chester, PA , 19382</p>
+                </div>
+                <div class="row-2">
+                    <div class="info">
+                        <i class="fas fa-vector-square"></i>
+                        <p>3500 Sqft</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bed"></i>
+                        <p>3 Beds</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bath"></i>
+                        <p>2 Baths</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="#">Request info</a>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="img img-4">
+                    <div class="tags">
+                        <span>3 Days Ago</span>
+                        <span>For Rent</span>
+                    </div>
+                    <div class="tags-2">
+                        <i class="fas fa-film"> 1</i>
+                        <i class="fas fa-camera"> 4</i>
+                    </div>
+                </div>
+                <div class="fix">
+                    <h3><span class="main-color">$25,000/Mo</span></h3>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <div class="fix-2">
+                    <h2>Modern Apartments</h2>
+                    <p>927 Paoli Pike, West Chester, PA , 19382</p>
+                </div>
+                <div class="row-2">
+                    <div class="info">
+                        <i class="fas fa-vector-square"></i>
+                        <p>3500 Sqft</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bed"></i>
+                        <p>3 Beds</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bath"></i>
+                        <p>2 Baths</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="#">Request info</a>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="img img-5">
+                    <div class="tags">
+                        <span>3 Days Ago</span>
+                        <span>For Rent</span>
+                    </div>
+                    <div class="tags-2">
+                        <i class="fas fa-film"> 1</i>
+                        <i class="fas fa-camera"> 4</i>
+                    </div>
+                </div>
+                <div class="fix">
+                    <h3><span class="main-color">$25,000/Mo</span></h3>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <div class="fix-2">
+                    <h2>Modern Apartments</h2>
+                    <p>927 Paoli Pike, West Chester, PA , 19382</p>
+                </div>
+                <div class="row-2">
+                    <div class="info">
+                        <i class="fas fa-vector-square"></i>
+                        <p>3500 Sqft</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bed"></i>
+                        <p>3 Beds</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bath"></i>
+                        <p>2 Baths</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="#">Request info</a>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="img img-6">
+                    <div class="tags">
+                        <span>3 Days Ago</span>
+                        <span>For Rent</span>
+                    </div>
+                    <div class="tags-2">
+                        <i class="fas fa-film"> 1</i>
+                        <i class="fas fa-camera"> 4</i>
+                    </div>
+                </div>
+                <div class="fix">
+                    <h3><span class="main-color">$25,000/Mo</span></h3>
+                    <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <div class="fix-2">
+                    <h2>Modern Apartments</h2>
+                    <p>927 Paoli Pike, West Chester, PA , 19382</p>
+                </div>
+                <div class="row-2">
+                    <div class="info">
+                        <i class="fas fa-vector-square"></i>
+                        <p>3500 Sqft</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bed"></i>
+                        <p>3 Beds</p>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-bath"></i>
+                        <p>2 Baths</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="#">Request info</a>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="agents">
+        <div class="heading">
+            <h2>Professional <span>Agents</span></h2>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="icons-2">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <img class="profile lazy" src="./imgs/pic-1.png" alt="agents-profile1">
+                <h2>John Deo</h2>
+                <p>Agent</p>
+                <div class="icons-3">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="icons-2">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <img class="profile lazy" src="./imgs/pic-2.png" alt="agents-profile2">
+                <h2>John Deo</h2>
+                <p>Agent</p>
+                <div class="icons-3">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="icons-2">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <img class="profile lazy" src="./imgs/pic-3.png" alt="agents-profile3">
+                <h2>John Deo</h2>
+                <p>Agent</p>
+                <div class="icons-3">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="icons-2">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <img class="profile lazy" src="./imgs/pic-4.png" alt="agents-profile4">
+                <h2>John Deo</h2>
+                <p>Agent</p>
+                <div class="icons-3">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="heading">
+            <h2><span>Contact</span> Us</h2>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="lazy fix-img" src="imgs/icon-1.png" alt="contact-img1">
+                <h2>Phone Number</h2>
+                <p>+123-456-7890</p>
+                <p>+111-222-3333</p>
+            </div>
+            <div class="grid-item">
+                <img class="lazy fix-img" src="imgs/icon-2.png" alt="contact-img2">
+                <h2>Email Address</h2>
+                <p>codeDev@gmail.com</p>
+                <p>coolInkDev@gmail.com</p>
+            </div>
+            <div class="grid-item">
+                <img class="lazy fix-img" src="imgs/icon-3.png" alt="contact-img3">
+                <h2>Office Address</h2>
+                <p>927 Paoli Pike, West Chester, PA, 19382</p>
+            </div>
+        </div>
+        <div class="grid-container">
+            <form class="grid-item">
+                <div class="row">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="row">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <div class="row">
+                    <textarea placeholder="message"></textarea>
+                </div>
+                <div class="row">
+                    <a href="#">Submit</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-container">
+            <div class="fixing">
+                <div class="footer-content">
+                    <h2>Branch Locations</h2>
+                    <ul>
+                        <li><a href="#">India</a></li>
+                        <li><a href="#">Japan</a></li>
+                        <li><a href="#">USA</a></li>
+                        <li><a href="#">Russia</a></li>
+                        <li><a href="#">France</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#nav">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#agents">Agents</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>Extra Links</h2>
+                    <ul>
+                        <li><a href="#">My Favorite</a></li>
+                        <li><a href="#">My Bookings</a></li>
+                        <li><a href="#">My Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content-2">
+                <p>Created By <span>Alex Inga</span> | All Rights Reserved</p>
+            </div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
